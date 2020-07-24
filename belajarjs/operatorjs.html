@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+  </head>
+
+  <body>
+    <button class="btn btn-warning" onclick="tambah()">tambah</button>
+    <button class="btn btn-danger" onclick="kurang()">kurang</button>
+    <button class="btn btn-success" onclick="kali()">kali</button>
+    <button class="btn btn-primary" onclick="bagi()">bagi</button>
+
+    <script src="../js/bootstrap.js"></script>
+    <script>
+      var a = 10;
+      var b = 5.2;
+      var c = 3;
+
+      function tambah() {
+        alert("nilai penjumlahan" + (a + b + c));
+      }
+
+      function kurang() {
+        alert("nilai pengurangan" + (a - b));
+      }
+
+      function kali() {
+        alert("nilai perkalian" + c * a * b);
+      }
+
+      function bagi() {
+        alert("nilai pemmbagian" + a / c);
+      }
+    </script>
+  </body>
+</html>
